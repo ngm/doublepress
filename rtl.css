@@ -1,0 +1,145 @@
+/*
+Theme Name: SemPress
+
+Adding support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+http://codex.wordpress.org/Right_to_Left_Language_Support
+
+*/
+
+body {
+  direction: rtl;
+  unicode-bidi: embed;
+}
+#primary {
+  float: right;
+}
+#sidebar {
+  float: left;
+}
+#content {
+  margin: 0 0 0 40px;
+}
+#access {
+  float: right;
+}
+#access ul {
+  padding-right: 0;
+}
+#access li {
+  float: right;
+}
+#access ul ul {
+  box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+  -webkit-box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+  float: right;
+  right: 0;
+  left: auto;
+}
+#access ul ul ul {
+  right: 100%;
+  left: auto;
+}
+#content nav .nav-previous {
+  float: right;
+}
+#content nav .nav-next {
+  float: left;
+  text-align: left;
+}
+/* Custom Post Types */
+.format-aside:before,
+.format-video:before,
+.format-audio:before,
+.format-image:before,
+.format-gallery:before,
+.format-link:before,
+.format-quote:before,
+.format-chat:before,
+.error404:before,
+.sticky:before,
+.format-status .entry-meta .avatar {
+  left: auto;
+  right: -75px;
+}
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+  #content {
+    margin: 0;
+  }
+
+  #main .widget-area {
+    padding-right: 0px;
+    padding-left: 40px;
+  }
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (max-width: 767px) {
+  #main .widget-area {
+    padding: 0;
+  }
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (max-width: 479px) {
+  #access {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    background-color: #464646;
+    z-index: 99999;
+  }
+
+  #access .section-heading a:before {
+    margin-right: 0px;
+    margin-left: 10px;
+    padding-left: 0px;
+    padding-right: 25px;
+  }
+
+  #access li {
+    float: none;
+    margin: inherit;
+    position: inherit;
+  }
+
+  #access ul {
+    display: none;
+    margin: inherit;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: transparent;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+  }
+
+  #access ul ul {
+    background-color: transparent;
+    background-image: none;
+    position: inherit;
+    float: none;
+    padding: inherit;
+    margin-left: 0px;
+    margin-right: 20px;
+    border: none;
+    top: inherit;
+    left: auto;
+    right: auto;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+  }
+}
+
+.screen-reader-text:focus {
+  right: 15px;
+  left: auto;
+}

@@ -1,0 +1,405 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SemPress 1.4.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/style\n"
+"POT-Creation-Date: 2016-11-29 21:04+0100\n"
+"PO-Revision-Date: 2016-11-29 21:08+0100\n"
+"Last-Translator: Rizky Luthfianto <mrluthfianto@gmail.com>\n"
+"Language-Team: Sugeng Tigefa - http://tigefa4u.github.io/\n"
+"Language: id_ID\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-KeywordsList: __;_e;_x;_ex;esc_attr_e;_;_n:1,2;_nx:1,2\n"
+";_n_noop: 1,2;_nx_noop:1,2X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /Users/pfefferle/Work/SemPress/sempress\n"
+"X-Poedit-SearchPath-1: /Users/matthias/Work/SemPress/sempress\n"
+
+#: 404.php:16
+msgid "Well this is somewhat embarrassing, isn&rsquo;t it?"
+msgstr "Nah ini agak memalukan, bukan?"
+
+#: 404.php:20
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching, or one of the links below, can help."
+msgstr ""
+"Tampaknya kita tidak dapat menemukan apa yang Anda cari. Mungkin mencari, "
+"atau salah satu link di bawah ini, dapat membantu."
+
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr "Kategori Yang Sering Digunakan"
+
+#. translators: %1$s: smilie
+#: 404.php:35
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Coba cari di arsip bulanan. %1$s"
+
+#: archive.php:32 archive.php:34
+msgid "Archives: %s"
+msgstr "Arsip: %s"
+
+#: archive.php:36 sidebar.php:19
+msgid "Archives"
+msgstr "Arsip"
+
+#: archive.php:65 author.php:63 category.php:49 index.php:43 search.php:35
+#: tag.php:51 taxonomy-post_format.php:49
+msgid "Nothing Found"
+msgstr "Tidak Ditemukan"
+
+#: archive.php:69 author.php:67 category.php:53 index.php:47 tag.php:55
+#: taxonomy-post_format.php:53
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Tampaknya kami tidak dapat menemukan apa yang Anda cari. Mungkin pencarian "
+"bisa membantu."
+
+#: author.php:27
+msgid "Author Archives: %s"
+msgstr "Author Archives: %s"
+
+#: category.php:18
+msgid "Category Archives: %s"
+msgstr "Category Archives: %s"
+
+#: comments.php:16
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+"Posting ini dilindungi kata sandi. Masukkan password untuk melihat komentar."
+
+#: comments.php:32
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Satu pemikiran pada &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s pemikiran pada &ldquo;%2$s&rdquo;"
+
+#: comments.php:39 comments.php:59
+msgid "Comment navigation"
+msgstr "Navigasi komentar"
+
+#: comments.php:40 comments.php:60
+msgid "&larr; Older Comments"
+msgstr "&larr; Komentar-komentar Lebih Lawas"
+
+#: comments.php:41 comments.php:61
+msgid "Newer Comments &rarr;"
+msgstr "Komentar-komentar baru &rarr;"
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr "Komentar ditutup."
+
+#: content-aside.php:20 content-audio.php:22 content-chat.php:13
+#: content-gallery.php:27 content-image.php:21 content-link.php:20
+#: content-quote.php:20 content-single.php:25 content-status.php:20
+#: content-video.php:18
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Lanjutkan membaca <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-aside.php:21 content-audio.php:23 content-chat.php:14
+#: content-gallery.php:28 content-image.php:22 content-link.php:21
+#: content-page.php:19 content-quote.php:21 content-single.php:26
+#: content-status.php:21 content-video.php:19 image.php:85
+msgid "Pages:"
+msgstr "Halaman:"
+
+#: content-gallery.php:14 content-single.php:9 entry-header.php:2
+msgid "Permalink to %s"
+msgstr ""
+
+#: content-page.php:20 entry-footer.php:33 image.php:33 image.php:99
+msgid "Edit"
+msgstr "Ubah"
+
+#: entry-footer.php:5
+msgid "Posted"
+msgstr "Dikirim"
+
+#. translators: used between list items, there is a space after the comma
+#: entry-footer.php:9 entry-footer.php:19
+msgid ", "
+msgstr ", "
+
+#: entry-footer.php:13
+msgid "in %1$s"
+msgstr "di %1$s"
+
+#: entry-footer.php:24
+msgid "Tagged %1$s"
+msgstr "Tagged %1$s"
+
+#: entry-footer.php:30
+msgid "Leave a comment"
+msgstr "Tinggalkan komentar"
+
+#: entry-footer.php:30
+msgid "1 Comment"
+msgstr "1 Komentar"
+
+#: entry-footer.php:30
+msgid "% Comments"
+msgstr "% Komentar"
+
+#: footer.php:17
+msgid "This site is powered by %1$s and styled with %2$s"
+msgstr "Situs ini didukung oleh %1$s dan ditata dengan %2$s"
+
+#: functions.php:79
+msgid "Primary Menu"
+msgstr "Menu utama"
+
+#: functions.php:152
+msgid "SemPress Settings"
+msgstr "Pengaturan SemPress"
+
+#: functions.php:153
+msgid "Change the look and feel of SemPress."
+msgstr "Ubah penampilan SemPress"
+
+#: functions.php:164
+msgid "Text Color"
+msgstr "Warna Teks"
+
+#: functions.php:176
+msgid "Shadow Color"
+msgstr "Warna Bayangan"
+
+#: functions.php:188
+msgid "Border Color"
+msgstr "Border Color"
+
+#: functions.php:200
+msgid "Page Structure"
+msgstr "Struktur Halaman"
+
+#: functions.php:205
+msgid "Single Column (Sidebar at the bottom)"
+msgstr "Satu kolom (Sidebar berada di bawah)"
+
+#: functions.php:206
+msgid "Multi Column (Sidebar at the right)"
+msgstr "Multi kolom (Sidebar berada di sisi kanan)"
+
+#: functions.php:255
+msgid "Sidebar 1"
+msgstr "Sidebar 1"
+
+#: functions.php:264
+msgid "Sidebar 2"
+msgstr "Sidebar 2"
+
+#: functions.php:266
+msgid "An optional second sidebar area"
+msgstr "Suatu daerah sidebar opsional kedua"
+
+#: functions.php:316
+msgid "Post navigation"
+msgstr "Navigasi posting"
+
+#: functions.php:326
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Post-post lama"
+
+#: functions.php:330
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Posting terbaru <span class=\"meta-nav\">&rarr;</span>"
+
+#. translators: 1: date, 2: time
+#: functions.php:373 functions.php:399
+msgid "%1$s at %2$s"
+msgstr "%1$s di %2$s"
+
+#: functions.php:375 functions.php:401
+msgid "(Edit)"
+msgstr "(Edit)"
+
+#: functions.php:388
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">mengatakan:</span>"
+
+#: functions.php:391
+msgid "Your comment is awaiting moderation."
+msgstr "Komentar anda sedang menunggu moderasi."
+
+#: functions.php:425
+msgid ""
+"<span class=\"sep\">Posted on </span><a href=\"%1$s\" title=\"%2$s\" rel="
+"\"bookmark\" class=\"url u-url\"><time class=\"entry-date updated published "
+"dt-updated dt-published\" datetime=\"%3$s\" itemprop=\"dateModified "
+"datePublished\">%4$s</time></a><address class=\"byline\"> <span class=\"sep"
+"\"> by </span> <span class=\"author p-author vcard hcard h-card\" itemprop="
+"\"author editor publisher\" itemscope itemtype=\"http://schema.org/Person\">"
+"%5$s <a class=\"url uid u-url u-uid fn p-name\" href=\"%6$s\" title=\"%7$s\" "
+"rel=\"author\" itemprop=\"url\"><span itemprop=\"name\">%8$s</span></a></"
+"span></address>"
+msgstr ""
+
+#: functions.php:432
+msgid "View all posts by %s"
+msgstr "Lihat semua posting dari %s"
+
+#: header.php:38
+msgid "Main menu"
+msgstr "Menu utama"
+
+#: header.php:39
+msgid "Skip to content"
+msgstr "Loncat ke daftar isi"
+
+#: image.php:23
+msgid ""
+"Published <time class=\"entry-date updated dt-updated\" datetime=\"%1$s\" "
+"itemprop=\"dateModified\">%2$s</time> at <a href=\"%3$s\" title=\"Link to "
+"full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return "
+"to %7$s\" rel=\"gallery\">%7$s</a>"
+msgstr ""
+"Published <time class=\"entry-date updated dt-updated\" datetime=\"%1$s\" "
+"itemprop=\"dateModified\">%2$s</time> at <a href=\"%3$s\" title=\"Link to "
+"full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return "
+"to %7$s\" rel=\"gallery\">%7$s</a>"
+
+#: image.php:37
+msgid "&larr; Previous"
+msgstr "&larr; Sebelumnya"
+
+#: image.php:38
+msgid "Next &rarr;"
+msgstr "Selanjutnya &rarr;"
+
+#: image.php:91
+msgid ""
+"<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a "
+"comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" "
+"title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr ""
+"<a class=\"comment-link\" href=\"#respond\" title=\"Posting komentar"
+"\">Posting komentar</a> or meninggalkan trackback: <a class=\"trackback-link"
+"\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback"
+"\">Trackback URL</a>."
+
+#: image.php:93
+msgid ""
+"Comments are closed, but you can leave a trackback: <a class=\"trackback-link"
+"\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback"
+"\">Trackback URL</a>."
+msgstr ""
+"Komentar yang ditutup, tapi Anda dapat meninggalkan trackback: <a class="
+"\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel="
+"\"trackback\">Trackback URL</a>."
+
+#: image.php:95
+msgid ""
+"Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond"
+"\" title=\"Post a comment\">post a comment</a>."
+msgstr ""
+"Trackbacks adalah ditutup, tapi Anda dapat <a class=\"comment-link\" href="
+"\"#respond\" title=\"Post a comment\">Post a comment</a>."
+
+#: image.php:97
+msgid "Both comments and trackbacks are currently closed."
+msgstr "Kedua komentar dan Pelacakan sedang ditutup."
+
+#: search.php:17
+msgid "Search Results for: %s"
+msgstr "Hasil pencarian untuk: %s"
+
+#: search.php:39
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Maaf, tidak ada yang cocok dengan istilah pencarian Anda. Silakan coba lagi "
+"dengan beberapa kata kunci yang berbeda."
+
+#: sidebar.php:26
+msgid "Meta"
+msgstr "Meta"
+
+#: tag.php:18
+msgid "Tag Archives: %s"
+msgstr "Tag Arsip: %s"
+
+#: taxonomy-post_format.php:24
+msgid "%s Archives"
+msgstr "%s Arsip"
+
+#. Theme Name of the plugin/theme
+msgid "SemPress"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://github.com/pfefferle/SemPress"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"SemPress is an extremely lightweight, responsive theme designed to show off "
+"your posts, quotes, and images. SemPress supports multiple post formats, "
+"widgets, and the option to upload a custom header or background image. The "
+"theme is based on HTML5 mixed with microformats, microformats v2 and "
+"microdata (Schema.org)."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Matthias Pfefferle"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://notiz.blog/projects/sempress/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Full-width, no sidebar"
+msgstr ""
+
+#: functions.php:320
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr ""
+
+#: functions.php:321
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr ""
+
+#~ msgid "Page %s"
+#~ msgstr "Halaman ke-%s"
+
+#~ msgid "&larr;"
+#~ msgstr "&larr;"
+
+#~ msgid "&rarr;"
+#~ msgstr "&rarr;"
+
+#~ msgid ""
+#~ "<span class=\"sep\">Posted on </span><a href=\"%1$s\" title=\"%2$s\" rel="
+#~ "\"bookmark\" class=\"url u-url\"><time class=\"entry-date updated "
+#~ "published dt-updated dt-published\" datetime=\"%3$s\" itemprop="
+#~ "\"dateModified\">%4$s</time></a><address class=\"byline\"> <span class="
+#~ "\"sep\"> by </span> <span class=\"author p-author vcard hcard h-card\" "
+#~ "itemprop=\"author\" itemscope itemtype=\"http://schema.org/Person\">%5$s "
+#~ "<a class=\"url uid u-url u-uid fn p-name\" href=\"%6$s\" title=\"%7$s\" "
+#~ "rel=\"author\" itemprop=\"url\"><span itemprop=\"name\">%8$s</span></a></"
+#~ "span></address>"
+#~ msgstr ""
+#~ "<span class=\"sep\">Posted on </span><a href=\"%1$s\" title=\"%2$s\" rel="
+#~ "\"bookmark\" class=\"url u-url\"><time class=\"entry-date updated "
+#~ "published dt-updated dt-published\" datetime=\"%3$s\" itemprop="
+#~ "\"dateModified\">%4$s</time></a><address class=\"byline\"> <span class="
+#~ "\"sep\"> by </span> <span class=\"author p-author vcard hcard h-card\" "
+#~ "itemprop=\"author\" itemscope itemtype=\"http://schema.org/Person\">%5$s "
+#~ "<a class=\"url uid u-url u-uid fn p-name\" href=\"%6$s\" title=\"%7$s\" "
+#~ "rel=\"author\" itemprop=\"url\"><span itemprop=\"name\">%8$s</span></a></"
+#~ "span></address>"
+
+#~ msgid "Search here&hellip;"
+#~ msgstr "Cari di sini&hellip;"

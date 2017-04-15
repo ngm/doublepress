@@ -1,0 +1,442 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SemPress 1.4.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/style\n"
+"POT-Creation-Date: 2016-11-29 21:09+0100\n"
+"PO-Revision-Date: 2016-11-29 21:09+0100\n"
+"Last-Translator: Matthias Pfefferle <matthias@pfefferle.org>\n"
+"Language-Team: Julien Pierré - http://www.jp-software.fr/en/\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-KeywordsList: __;_e;_x;_ex;esc_attr_e;_;_n:1,2;_nx:1,2\n"
+";_n_noop: 1,2;_nx_noop:1,2X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: /Users/pfefferle/Work/SemPress/sempress\n"
+"X-Poedit-SearchPath-1: /Users/matthias/Work/SemPress/sempress\n"
+
+#: 404.php:16
+msgid "Well this is somewhat embarrassing, isn&rsquo;t it?"
+msgstr "C&rsquo;est plutôt gênant, vous ne trouvez pas&nbsp;?"
+
+#: 404.php:20
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching, or one of the links below, can help."
+msgstr ""
+"Il semblerait que nous ne soyons pas en mesure de trouver votre contenu. "
+"Essayez en lançant une recherche, ou à l&rsquo;aide de l&rsquo;un des lien "
+"ci-dessous."
+
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr "Catégories les plus utilisées"
+
+#. translators: %1$s: smilie
+#: 404.php:35
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Essayez de voir du côté des archives mensuelles. %1$s"
+
+#: archive.php:32 archive.php:34
+msgid "Archives: %s"
+msgstr "Archives: %s"
+
+#: archive.php:36 sidebar.php:19
+msgid "Archives"
+msgstr "Archives"
+
+#: archive.php:65 author.php:63 category.php:49 index.php:43 search.php:35
+#: tag.php:51 taxonomy-post_format.php:49
+msgid "Nothing Found"
+msgstr "Rien n&rsquo;a été trouvé"
+
+#: archive.php:69 author.php:67 category.php:53 index.php:47 tag.php:55
+#: taxonomy-post_format.php:53
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Il semblerait que nous ne soyons pas en mesure de trouver votre contenu. "
+"Essayez en lançant une recherche."
+
+#: author.php:27
+msgid "Author Archives: %s"
+msgstr "Archives de l&rsquo;auteur&nbsp;: %s"
+
+#: category.php:18
+msgid "Category Archives: %s"
+msgstr "Archives de la catégorie %s"
+
+#: comments.php:16
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+"Cet article est protégé par un mot de passe. Veuillez saisir votre mot de "
+"passe pour lire les commentaires."
+
+#: comments.php:32
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Un commentaire on &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s commentaires sur &ldquo;%2$s&rdquo;"
+
+#: comments.php:39 comments.php:59
+msgid "Comment navigation"
+msgstr "Navigation dans les commentaires"
+
+#: comments.php:40 comments.php:60
+msgid "&larr; Older Comments"
+msgstr "&larr; Commentaires plus anciens"
+
+#: comments.php:41 comments.php:61
+msgid "Newer Comments &rarr;"
+msgstr "Commentaires plus récents &rarr;"
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+#: content-aside.php:20 content-audio.php:22 content-chat.php:13
+#: content-gallery.php:27 content-image.php:21 content-link.php:20
+#: content-quote.php:20 content-single.php:25 content-status.php:20
+#: content-video.php:18
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Lire la suite <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-aside.php:21 content-audio.php:23 content-chat.php:14
+#: content-gallery.php:28 content-image.php:22 content-link.php:21
+#: content-page.php:19 content-quote.php:21 content-single.php:26
+#: content-status.php:21 content-video.php:19 image.php:85
+msgid "Pages:"
+msgstr "Pages&nbsp;:"
+
+#: content-gallery.php:14 content-single.php:9 entry-header.php:2
+msgid "Permalink to %s"
+msgstr ""
+
+#: content-page.php:20 entry-footer.php:33 image.php:33 image.php:99
+msgid "Edit"
+msgstr "Modifier"
+
+#: entry-footer.php:5
+msgid "Posted"
+msgstr "Publié"
+
+#. translators: used between list items, there is a space after the comma
+#: entry-footer.php:9 entry-footer.php:19
+msgid ", "
+msgstr ", "
+
+#: entry-footer.php:13
+msgid "in %1$s"
+msgstr "dans %1$s"
+
+#: entry-footer.php:24
+msgid "Tagged %1$s"
+msgstr "Marqué avec %1$s"
+
+#: entry-footer.php:30
+msgid "Leave a comment"
+msgstr "Laisser un commentaire"
+
+#: entry-footer.php:30
+msgid "1 Comment"
+msgstr "1 Commentaire"
+
+#: entry-footer.php:30
+msgid "% Comments"
+msgstr "%s Commentaires"
+
+#: footer.php:17
+msgid "This site is powered by %1$s and styled with %2$s"
+msgstr "Ce site est propulsé par %1$s et désigné par %2$s"
+
+#: functions.php:79
+msgid "Primary Menu"
+msgstr "Menu principal"
+
+#: functions.php:152
+msgid "SemPress Settings"
+msgstr "Paramètres SemPress"
+
+#: functions.php:153
+msgid "Change the look and feel of SemPress."
+msgstr "Modifier le design de SemPress."
+
+#: functions.php:164
+msgid "Text Color"
+msgstr "Couleur du texte"
+
+#: functions.php:176
+msgid "Shadow Color"
+msgstr "Couleur de l&rsquo;ombre"
+
+#: functions.php:188
+msgid "Border Color"
+msgstr "Couleur de la bordure"
+
+#: functions.php:200
+msgid "Page Structure"
+msgstr "Structure de la page"
+
+#: functions.php:205
+msgid "Single Column (Sidebar at the bottom)"
+msgstr "Une seule colonne (Sidebar en bas)"
+
+#: functions.php:206
+msgid "Multi Column (Sidebar at the right)"
+msgstr "Colonnes multiples (Sidebar à droite)"
+
+#: functions.php:255
+msgid "Sidebar 1"
+msgstr "Sidebar 1"
+
+#: functions.php:264
+msgid "Sidebar 2"
+msgstr "Sidebar 2"
+
+#: functions.php:266
+msgid "An optional second sidebar area"
+msgstr "Une seconde sidebar en option"
+
+#: functions.php:316
+msgid "Post navigation"
+msgstr "Navigation des articles"
+
+#: functions.php:326
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Articles plus anciens"
+
+#: functions.php:330
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Nouveaux articles <span class=\"meta-nav\">&rarr;</span>"
+
+#. translators: 1: date, 2: time
+#: functions.php:373 functions.php:399
+msgid "%1$s at %2$s"
+msgstr "%1$s à %2$s"
+
+#: functions.php:375 functions.php:401
+msgid "(Edit)"
+msgstr "(Modifier)"
+
+#: functions.php:388
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">dit&nbsp;:</span>"
+
+#: functions.php:391
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire est en attente de validation."
+
+#: functions.php:425
+msgid ""
+"<span class=\"sep\">Posted on </span><a href=\"%1$s\" title=\"%2$s\" rel="
+"\"bookmark\" class=\"url u-url\"><time class=\"entry-date updated published "
+"dt-updated dt-published\" datetime=\"%3$s\" itemprop=\"dateModified "
+"datePublished\">%4$s</time></a><address class=\"byline\"> <span class=\"sep"
+"\"> by </span> <span class=\"author p-author vcard hcard h-card\" itemprop="
+"\"author editor publisher\" itemscope itemtype=\"http://schema.org/Person\">"
+"%5$s <a class=\"url uid u-url u-uid fn p-name\" href=\"%6$s\" title=\"%7$s\" "
+"rel=\"author\" itemprop=\"url\"><span itemprop=\"name\">%8$s</span></a></"
+"span></address>"
+msgstr ""
+
+#: functions.php:432
+msgid "View all posts by %s"
+msgstr "Afficher tous les articles de %s"
+
+#: header.php:38
+msgid "Main menu"
+msgstr "Menu principal"
+
+#: header.php:39
+msgid "Skip to content"
+msgstr "Aller au contenu principal"
+
+#: image.php:23
+msgid ""
+"Published <time class=\"entry-date updated dt-updated\" datetime=\"%1$s\" "
+"itemprop=\"dateModified\">%2$s</time> at <a href=\"%3$s\" title=\"Link to "
+"full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return "
+"to %7$s\" rel=\"gallery\">%7$s</a>"
+msgstr ""
+"Publié le <time class=\"entry-date updated dt-updated\" datetime=\"%1$s\" "
+"itemprop=\"dateModified\">%2$s</time> à <a href=\"%3$s\" title=\"Lien vers "
+"l'image en taille originale\">%4$s &times; %5$s</a> dans <a href=\"%6$s\" "
+"title=\"Revenir à %7$s\" rel=\"gallery\">%7$s</a>"
+
+#: image.php:37
+msgid "&larr; Previous"
+msgstr "&larr; Précédent"
+
+#: image.php:38
+msgid "Next &rarr;"
+msgstr "Suivant &rarr;"
+
+#: image.php:91
+msgid ""
+"<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a "
+"comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" "
+"title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr ""
+"<a class=\"comment-link\" href=\"#respond\" title=\"Rédiger un commentaire"
+"\">Rédiger un commentaire</a> ou laisser un rétrolien&nbsp;: <a class="
+"\"trackback-link\" href=\"%s\" title=\"Url du rétrolien pour votre article\" "
+"rel=\"trackback\">Url du rétrolien</a>."
+
+#: image.php:93
+msgid ""
+"Comments are closed, but you can leave a trackback: <a class=\"trackback-link"
+"\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback"
+"\">Trackback URL</a>."
+msgstr ""
+"Les commentaires sont fermés, maid vous pouvez laisser un rétrolien : <a "
+"class=\"trackback-link\" href=\"%s\" title=\"Url de rétrolien pour votre "
+"article\" rel=\"trackback\">Url de rétrolien</a>."
+
+#: image.php:95
+msgid ""
+"Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond"
+"\" title=\"Post a comment\">post a comment</a>."
+msgstr ""
+"Les rétroliens sont fermés, mais vous pouvez you can <a class=\"comment-link"
+"\" href=\"#respond\" title=\"Rédiger un commentaire\">rédiger un "
+"commentaire</a>."
+
+#: image.php:97
+msgid "Both comments and trackbacks are currently closed."
+msgstr "Les commentaires et rétroliens sont actuellement fermés."
+
+#: search.php:17
+msgid "Search Results for: %s"
+msgstr "Résultats de recherche pour %s"
+
+#: search.php:39
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Désolé, mais rien ne correspond à votre critères de recherche. Veuillez "
+"réessayer avec d&rsquo;autres mots-clefs."
+
+#: sidebar.php:26
+msgid "Meta"
+msgstr "Meta"
+
+#: tag.php:18
+msgid "Tag Archives: %s"
+msgstr "Archives du mot-clef %s"
+
+#: taxonomy-post_format.php:24
+msgid "%s Archives"
+msgstr "%s Archives"
+
+#. Theme Name of the plugin/theme
+msgid "SemPress"
+msgstr "SemPress"
+
+#. Theme URI of the plugin/theme
+msgid "https://github.com/pfefferle/SemPress"
+msgstr "https://github.com/pfefferle/SemPress"
+
+#. Description of the plugin/theme
+msgid ""
+"SemPress is an extremely lightweight, responsive theme designed to show off "
+"your posts, quotes, and images. SemPress supports multiple post formats, "
+"widgets, and the option to upload a custom header or background image. The "
+"theme is based on HTML5 mixed with microformats, microformats v2 and "
+"microdata (Schema.org)."
+msgstr ""
+"SemPress est un thème extrêmement légère, réactif, conçu pour montrer vos "
+"messages, des citations et des images. SemPress prend en charge plusieurs "
+"formats de message, les widgets et la possibilité de télécharger une image "
+"de fond ou d’en-tête personnalisée. Le thème est basé sur HTML5 mélangé avec "
+"les microformats, les microformats v2 et les microdonnées (Schema.org)."
+
+#. Author of the plugin/theme
+msgid "Matthias Pfefferle"
+msgstr "Matthias Pfefferle"
+
+#. Author URI of the plugin/theme
+msgid "http://notiz.blog/projects/sempress/"
+msgstr "http://notiz.blog/projects/sempress/"
+
+#. Template Name of the plugin/theme
+msgid "Full-width, no sidebar"
+msgstr ""
+
+#: functions.php:320
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr ""
+
+#: functions.php:321
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr ""
+
+#~ msgid "Page %s"
+#~ msgstr "Page %s"
+
+#~ msgid "&larr;"
+#~ msgstr "&larr;"
+
+#~ msgid "&rarr;"
+#~ msgstr "&rarr;"
+
+#~ msgid ""
+#~ "<span class=\"sep\">Posted on </span><a href=\"%1$s\" title=\"%2$s\" rel="
+#~ "\"bookmark\" class=\"url u-url\"><time class=\"entry-date updated "
+#~ "published dt-updated dt-published\" datetime=\"%3$s\" itemprop="
+#~ "\"dateModified\">%4$s</time></a><address class=\"byline\"> <span class="
+#~ "\"sep\"> by </span> <span class=\"author p-author vcard hcard h-card\" "
+#~ "itemprop=\"author\" itemscope itemtype=\"http://schema.org/Person\">%5$s "
+#~ "<a class=\"url uid u-url u-uid fn p-name\" href=\"%6$s\" title=\"%7$s\" "
+#~ "rel=\"author\" itemprop=\"url\"><span itemprop=\"name\">%8$s</span></a></"
+#~ "span></address>"
+#~ msgstr ""
+#~ "<span class=\"sep\">Publié le </span><a href=\"%1$s\" title=\"%2$s\" rel="
+#~ "\"bookmark\" class=\"url u-url\"><time class=\"entry-date updated "
+#~ "published dt-updated dt-published\" datetime=\"%3$s\" itemprop="
+#~ "\"dateModified\">%4$s</time></a><address class=\"byline\"> <span class="
+#~ "\"sep\"> par </span> <span class=\"author p-author vcard hcard h-card\" "
+#~ "itemprop=\"author\" itemscope itemtype=\"http://schema.org/Person\">%5$s "
+#~ "<a class=\"url uid u-url u-uid fn p-name\" href=\"%6$s\" title=\"%7$s\" "
+#~ "rel=\"author\" itemprop=\"url\"><span itemprop=\"name\">%8$s</span></a></"
+#~ "span></address>"
+
+#~ msgid "Search here&hellip;"
+#~ msgstr "Rechercher ici&hellip;"
+
+#~ msgid ""
+#~ "This entry was tagged %2$s. Bookmark the <a href=\"%3$s\" title="
+#~ "\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+#~ msgstr ""
+#~ "Ce contenu a été marqué avec %2$s. Mettez-le en favori avec son <a href="
+#~ "\"%3$s\" title=\"Permalien vers %4$s\" rel=\"bookmark\">permalien</a>."
+
+#~ msgid ""
+#~ "Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark"
+#~ "\">permalink</a>."
+#~ msgstr ""
+#~ "Mettez en favori le <a href=\"%3$s\" title=\"Permalien vers %4$s\" rel="
+#~ "\"bookmark\">permalien</a>."
+
+#~ msgid ""
+#~ "This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s"
+#~ "\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+#~ msgstr ""
+#~ "Ce contenu a été publié dans %1$s, et marqué avec %2$s. Mettez-le en "
+#~ "favori avec son <a href=\"%3$s\" title=\"Permalien vers %4$s\" rel="
+#~ "\"bookmark\">permalien</a>."
+
+#~ msgid ""
+#~ "This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" title="
+#~ "\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+#~ msgstr ""
+#~ "Ce contenu a été publié dans %1$s. Mettez-le en favori avec son <a href="
+#~ "\"%3$s\" title=\"Permalien vers %4$s\" rel=\"bookmark\">permalien</a>."
