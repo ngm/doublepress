@@ -567,3 +567,25 @@ require( get_template_directory() . '/inc/compat.php' );
 /**
  * This theme was built with PHP, Semantic HTML, CSS, love, and SemPress.
  */
+
+
+// For allowing exotic webmentions on homepages and archive pages
+function handle_exotic_webmentions($id, $target) {
+    $homepage_id = 11;
+    $mentions_page_id = 283;
+
+    // If $id is homepage, reset to mentions page
+    if ($id == $homepage_id) {
+        return $mentions_page_id;
+    }
+
+    // do nothing if id is set
+    if ($id) {
+        return $id;
+    }
+
+    // return "default" id if plugin can't find a post/page
+    return $mentions_page_id;
+}
+
+add_filter("webmention_post_id", "handle_exotic_webmentions", 10, 2);
