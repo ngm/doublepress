@@ -1858,11 +1858,20 @@ li#social-facebook-like ul li cite{
 	display:none;
 }
 
-section.u-quotation-of {
-    margin-bottom:10px;
+section.u-quotation-of, section.u-bookmark-of {
+    margin-bottom:30px;
 }
 
 section.u-quotation-of .e-summary {
     font-style:italic;
     font-size:larger;
+}
+
+section.u-bookmark-of header {
+    font-size: larger;
+    text-decoration: underline;
+}
+
+section.u-bookmark-of .e-summary {
+    font-size: smaller;
 }

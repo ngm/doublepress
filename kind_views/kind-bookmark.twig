@@ -1,0 +1,19 @@
+<section class="h-cite u-bookmark-of">
+
+<header>
+    {% if not embed %}
+        <a class="u-bookmark-of" href="{{ bookmark_url }}">
+            {% if title %} {{ title }} {% endif %}
+        </a>
+        {% if author %} {{ by }} {{ author }} {% endif %}
+        {% if site_name %}
+        <em>(<span class="p-publication">{{ site_name }}</span>)</em>
+        {% endif %}
+    {% endif %}
+</header>
+
+{% if cite %}
+		<div class="e-summary">Summary: "<em>{{ citeText }}</em>"</blockquote>
+{% endif %}
+
+</section>
