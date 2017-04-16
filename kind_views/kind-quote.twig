@@ -1,22 +1,27 @@
 <section class="h-cite u-quotation-of">
 
-    <a class="u-url" href="{{ meta_url }}"></a>
+    <a class="u-url" href="{{ quotation_url }}"></a>
 
     {% if cite %}
         <div class="e-summary">
-        "{{ quoteText }}"
+            {% if showCiteSummary %}
+                "<em>{{ cite.summary }}</em>"
+            {% endif %}
+            {% if showEmbed %}
+                {{ embed }}
+            {% endif %}
         </div>
     {% endif %}
 
-	<header>
 	{% if not embed %}
-    --
-    {% if title %} {{ title }} {% endif %}
-    {% if author %} {{ by }} {{ author }} {% endif %}
-    {% if site_name %}
-    <em>(<span class="p-publication">{{ site_name }}</span>)</em>
-    {% endif %}
+    <div>
+        --
+        {% if title %} {{ title }} {% endif %}
+        {% if author %} {{ by }} {{ author }} {% endif %}
+        {% if site_name %}
+            <em>(<span class="p-publication">{{ site_name }}</span>)</em>
+        {% endif %}
+    </div>
 	{% endif %}
-	</header>
 </section>
 <br/>
