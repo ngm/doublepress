@@ -3,23 +3,19 @@
     <a class="u-url" href="{{ meta_url }}"></a>
 
     {% if cite %}
-        <div class="e-summary" style="font-style:italic;font-size:larger;">
+        <div class="e-summary">
         "{{ quoteText }}"
         </div>
     {% endif %}
 
 	<header>
 	{% if not embed %}
-                    --
-	{% if title %}
-	    {{ title }}
-	{% endif %}
-	{% if author %}
-	{{ by }} {{ author }}
-	{% endif %}
-	{% if site_name %}
-<em>(<span class="p-publication">{{ site_name }}</span>)</em>
-	{% endif %}
+    --
+    {% if title %} {{ title }} {% endif %}
+    {% if author %} {{ by }} {{ author }} {% endif %}
+    {% if site_name %}
+    <em>(<span class="p-publication">{{ site_name }}</span>)</em>
+    {% endif %}
 	{% endif %}
 	</header>
 </section>

@@ -1857,3 +1857,12 @@ li#social-facebook-like ul li img.avatar {
 li#social-facebook-like ul li cite{
 	display:none;
 }
+
+section.u-quotation-of {
+    margin-bottom:10px;
+}
+
+section.u-quotation-of .e-summary {
+    font-style:italic;
+    font-size:larger;
+}
