@@ -13,7 +13,14 @@
 </header>
 
 {% if cite %}
-		<div class="e-summary">Summary: "<em>{{ citeText }}</em>"</blockquote>
+		<div class="e-summary">
+        {% if showCiteSummary %}
+        Summary: "<em>{{ cite.summary }}</em>"
+        {% endif %}
+        {% if showEmbed %}
+            {{ embed }}
+        {% endif %}
+    </div>
 {% endif %}
 
 </section>

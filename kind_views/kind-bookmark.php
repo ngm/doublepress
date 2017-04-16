@@ -4,7 +4,6 @@
 */
 
 $kind = get_post_kind_slug( get_the_ID() );
-$type = 'u-bookmark-of';
 $meta = new Kind_Meta( get_the_ID() );
 
 $cite = $meta->get_cite();
@@ -22,9 +21,9 @@ $context['embed'] = $embed;
 
 
 if ($embed) {
-    $context['citeText'] = $embed;
+    $context['showEmbed'] = true;
 } else if (array_key_exists('summary', $cite)) {
-    $context['citeText'] = $cite['summary'];
+    $context['showCiteSummary'] = true;
 }
 
 Timber::render('kind-bookmark.twig', $context);
