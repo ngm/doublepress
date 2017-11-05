@@ -12,7 +12,6 @@
  */
 
 get_header(); ?>
-
 		<section id="primary">
 			<main id="content" role="main">
 

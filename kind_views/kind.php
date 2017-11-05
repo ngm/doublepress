@@ -60,10 +60,11 @@ switch ( $kind ) {
 
 <section class="h-cite response <?php echo $type; ?> ">
 <header>
-<?php echo Kind_Taxonomy::get_icon( $kind );
+<?php /*echo Kind_Taxonomy::get_icon( $kind );*/
 if( ! $embed ) {
+	echo '<span class="kind">[<a href="/kind/'.$kind.'">'. $kind.'</a>]</span>';
 	if ( $title ) {
-		echo $title;
+		echo '<h2>'.$title.'</h2>';
 	}
 	if ( $author ) {
 		echo ' ' . __( 'by', 'indieweb-post-kinds' ) . ' ' . $author;

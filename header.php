@@ -15,7 +15,7 @@
 <link rel="profile" href="http://microformats.org/profile/specs" />
 <link rel="profile" href="http://microformats.org/profile/hatom" />
 <link rel="feed" type="text/html" href="https://doubleloop.net/all" />
-
+<link href="https://fonts.googleapis.com/css?family=Monofett|Open+Sans|Fredoka+One" rel="stylesheet">
 <?php wp_head(); ?>
 </head>
 

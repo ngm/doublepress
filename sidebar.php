@@ -6,6 +6,9 @@
  * @since SemPress 1.0.0
  */
 ?>
+<script type="text/javascript" src="<?php echo bloginfo('stylesheet_directory') . '/progressbar.js'?>"></script>
+<script type="text/javascript" src="<?php echo bloginfo('stylesheet_directory') . '/progress.js'?>"></script>
+<link rel="stylesheet" type="text/css" href="<?php echo bloginfo('stylesheet_directory') . '/progress.css'?>" />
 	<aside id="sidebar">
 		<div id="secondary" class="widget-area" role="complementary">
 			<?php do_action( 'before_sidebar' ); ?>

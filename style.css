@@ -26,7 +26,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
   font-style: normal;
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #555;
   background-color: #f0f0f0;
   background-image: url("img/noise.png");
@@ -155,6 +155,7 @@ ins {
 
 h1, h2, h3, h4, h5 {
   font-weight: 200;
+  font-family: Fredoka One;
 }
 
 h1 {
@@ -190,11 +191,13 @@ h1 {
 }
 
 #site-title {
+  font-family: Monofett;
   font-size: 4em;
   letter-spacing: -2px;
   margin: 0;
 }
 #site-title a {
+  color: #9f3e47;
   text-decoration: none;
 }
 .custom-header #site-title {
@@ -567,7 +570,7 @@ footer.entry-meta {
 .entry-content a,
 .entry-summary a,
 .entry-title a {
-  color: #21759B;
+  color: #9f3e47;
   text-decoration: none;
 }
 .entry-content a:hover,
@@ -1763,7 +1766,7 @@ ol.commentlist {
 
 body {
     font-size:100%;
-    font-family: "verdana",sans-serif;
+    font-family: "Open Sans", "verdana",sans-serif;
     background-image:none;
     background-color: #fff;
 }
@@ -1874,4 +1877,38 @@ section.u-bookmark-of header {
 
 section.u-bookmark-of .e-summary {
     font-size: smaller;
+}
+
+article.kind-jam::before {
+  content: '\266b';
+}
+
+article.kind-jam section.p-jam-of {
+  margin-left:0;
+  padding-left:0;
+}
+
+article.kind-read section.p-read-of,
+article.kind-listen section.p-listen-of {
+  margin-left:0;
+  padding-left:0;
+}
+
+article.kind-jam h2, 
+article.kind-listen h2, 
+article.kind-read h2 {
+  margin-top:0;
+  margin-bottom:0;
+}
+
+article.kind-read::before {
+  content: '\1f4d6';
+}
+
+article.kind-listen::before {
+  content: '\1f3a7';
+}
+
+.kind {
+  text-transform:upper;
 }

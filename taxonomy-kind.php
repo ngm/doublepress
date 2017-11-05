@@ -1,24 +1,52 @@
 <?php
 /**
- * The main template file.
+ * The template for displaying Archive pages.
  *
- * This is the most generic template file in a WordPress theme
- * and one of the two required files for a theme (the other being style.css).
- * It is used to display a page when nothing more specific matches a query.
- * E.g., it puts together the home page when no home.php file exists.
+ * Used to display archive-type pages if nothing more specific matches a query.
+ * For example, puts together date-based pages if no date.php file exists.
+ *
  * Learn more: http://codex.wordpress.org/Template_Hierarchy
  *
  * @package SemPress
  * @since SemPress 1.0.0
  */
+$kind = Kind_Taxonomy::kind_archive_title();
 
 get_header(); ?>
-
 		<section id="primary">
 			<main id="content" role="main">
+
 			<?php if ( have_posts() ) : ?>
 
+				<header class="page-header">
+					<h1 class="page-title">
+						<?php 
+						if ( is_date() ) :
+							$link = '';
+							if ( is_day() ) {
+								$link .= ' <a href=" ' . get_day_link( get_the_time( 'Y' ), get_the_time( 'm' ), get_the_time( 'd' ) ) . '">' . get_the_time( 'd' ) . '.</a>';
+							} if ( is_month() || is_day() ) {
+								$link .= ' <a href="' . get_month_link( get_the_time( 'Y' ), get_the_time( 'm' ) ) . '">' . get_the_date( 'F' ) . '</a>';
+							} if ( is_year() || is_month() || is_day() ) {
+								$link .= ' <a href="' . get_year_link( get_the_time( 'Y' ) ) . '">' . get_the_time( 'Y' ) . '</a>';
+							}
+
+							printf( __( 'Archives: %s', 'sempress' ), '<span itemprop="breadcrumb">' . $link . '</span>' );
+						elseif ( $kind ) :
+							printf( __( 'Archives: %s', 'sempress' ), '<span>' . $kind . '</span>' );
+						else :
+							_e( 'Archives', 'sempress' );
+						endif;
+						?>
+					</h1>
+				</header>
+
+				<?php rewind_posts(); ?>
+
 				<?php sempress_content_nav( 'nav-above' ); ?>
+
+
+				<?php echo Kind_Taxonomy::kind_archive_description(); ?>
 
 				<?php /* Start the Loop */ ?>
 				<?php while ( have_posts() ) : the_post(); ?>
