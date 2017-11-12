@@ -11,17 +11,20 @@ $cite = $meta->get_cite();
 $url = $meta->get_url();
 $embed = self::get_embed( $meta->get_url() );
 ?>
-<section class="response">
-<header>
 <?php
 /*echo Kind_Taxonomy::get_before_kind( 'photo' );*/
 if ( isset( $cite['name'] ) ) {
+?>
+<section class="response">
+<header>
+<?php
 	echo sprintf( '<span class="p-name">%1s</a>', $cite['name'] );
-}
-
 ?>
 </header>
 </section>
+<?php
+}
+?>
 <?php
 if ( $photos && ! has_post_thumbnail( get_the_ID() ) ) {
 	echo gallery_shortcode(
