@@ -10,7 +10,7 @@
  * @package SemPress
  * @since SemPress 1.0.0
  */
-$kind = Kind_Taxonomy::kind_archive_title();
+$kind = Kind_Taxonomy::kind_archive_title('Unknown Taxonomy Title');
 
 get_header(); ?>
 		<section id="primary">
@@ -46,7 +46,7 @@ get_header(); ?>
 				<?php sempress_content_nav( 'nav-above' ); ?>
 
 
-				<?php echo Kind_Taxonomy::kind_archive_description(); ?>
+				<?php echo Kind_Taxonomy::kind_archive_description('default'); ?>
 
 				<?php /* Start the Loop */ ?>
 				<?php while ( have_posts() ) : the_post(); ?>
