@@ -18,7 +18,7 @@
 <link href="https://fonts.googleapis.com/css?family=Monofett" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
-?php wp_head(); ?>
+<?php wp_head(); ?>
 <link rel="me" href="https://social.coop/@neil" />
 </head>
 
