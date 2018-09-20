@@ -1889,14 +1889,16 @@ article.kind-jam section.p-jam-of {
 }
 
 article.kind-read section.p-read-of,
-article.kind-listen section.p-listen-of {
+article.kind-listen section.p-listen-of,
+article.kind-watch section.p-watch-of {
   margin-left:0;
   padding-left:0;
 }
 
 article.kind-jam h2, 
 article.kind-listen h2, 
-article.kind-read h2 {
+article.kind-read h2,
+article.kind-watch h2 {
   margin-top:0;
   margin-bottom:0;
 }
@@ -1907,6 +1909,10 @@ article.kind-read::before {
 
 article.kind-listen::before {
   content: '\1f3a7';
+}
+
+article.kind-watch::before {
+    content: '\25B6';
 }
 
 .kind {
