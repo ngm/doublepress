@@ -622,3 +622,12 @@ function syndicate_to_mastodon($ID, $syndicate_to)
 }
 
 add_filter("micropub_syndication", "syndicate_to_mastodon", 10, 2);
+
+// turn off yoast's title rewriting
+// see: https://stackoverflow.com/a/22426152
+add_action( 'init', function () {
+    $wpseo_front = WPSEO_Frontend::get_instance();
+
+    remove_filter( 'pre_get_document_title', array( $wpseo_front, 'title' ), 15 );
+    remove_filter( 'wp_title', array( $wpseo_front, 'title' ), 15 );
+} );
