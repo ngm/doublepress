@@ -1370,7 +1370,7 @@ ol.commentlist {
 }
 .widget-area li a {
   padding: 2px 0;
-  display: block;
+  /*display: block;*/
 }
 
 .post-likes-widget {
@@ -1913,6 +1913,10 @@ article.kind-listen::before {
 
 article.kind-watch::before {
     content: '\25B6';
+}
+
+article.kind-like::before {
+    content: '♥';
 }
 
 .kind {
