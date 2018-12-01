@@ -1927,6 +1927,10 @@ article.kind-rsvp::before {
     content: '📅';
 }
 
+article.kind-reply::before {
+    content: '↪';
+}
+️
 
 .kind {
   text-transform:upper;
