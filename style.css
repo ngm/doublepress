@@ -1919,6 +1919,10 @@ article.kind-like::before {
     content: '♥';
 }
 
+article.kind-bookmark::before {
+    content: '🔖';
+}
+
 .kind {
   text-transform:upper;
 }
