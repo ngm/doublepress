@@ -1923,6 +1923,11 @@ article.kind-bookmark::before {
     content: '🔖';
 }
 
+article.kind-rsvp::before {
+    content: '📅';
+}
+
+
 .kind {
   text-transform:upper;
 }
