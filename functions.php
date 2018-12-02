@@ -631,3 +631,31 @@ add_action( 'init', function () {
     remove_filter( 'pre_get_document_title', array( $wpseo_front, 'title' ), 15 );
     remove_filter( 'wp_title', array( $wpseo_front, 'title' ), 15 );
 } );
+
+wp_embed_register_handler( 'ytnocookie', '#https?://www\.youtube\-nocookie\.com/embed/([a-z0-9\-_]+)#i', 'wp_embed_handler_ytnocookie' );
+wp_embed_register_handler( 'ytnormal', '#https?://www\.youtube\.com/watch\?v=([a-z0-9\-_]+)#i', 'wp_embed_handler_ytnocookie' );
+wp_embed_register_handler( 'ytnormal2', '#https?://www\.youtube\.com/watch\?feature=player_embedded&amp;v=([a-z0-9\-_]+)#i', 'wp_embed_handler_ytnocookie' );
+
+function wp_embed_handler_ytnocookie( $matches, $attr, $url, $rawattr ) {
+    global $defaultoptions;
+
+    $defaultoptions['yt-content-width'] = '680';
+    $defaultoptions['yt-content-height'] = '510';
+    $defaultoptions['yt-norel'] = 1;
+    $relvideo = '';
+
+    if ($defaultoptions['yt-norel']==1) {
+        $relvideo = '?rel=0';
+    }
+
+    $embed = sprintf(
+      '<iframe src="https://www.youtube-nocookie.com/embed/%2$s%5$s" width="%3$spx" height="%4$spx" frameborder="0" scrolling="no" marginwidth="0" marginheight="0"></iframe>',
+       get_template_directory_uri(),
+       esc_attr($matches[1]),
+       $defaultoptions['yt-content-width'],
+       $defaultoptions['yt-content-height'],
+       $relvideo
+    );
+
+    return apply_filters( 'embed_ytnocookie', $embed, $matches, $attr, $url, $rawattr );
+}
