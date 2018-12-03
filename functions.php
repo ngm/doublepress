@@ -659,3 +659,9 @@ function wp_embed_handler_ytnocookie( $matches, $attr, $url, $rawattr ) {
 
     return apply_filters( 'embed_ytnocookie', $embed, $matches, $attr, $url, $rawattr );
 }
+
+// see: https://github.com/ngm/doubleloop.net/issues/4
+add_filter('the_content', 'wrapPostContentWithContentMicroformats', 15, 2);
+function wrapPostContentWithContentMicroformats($content) {
+    return '<div class="p-name p-content">' . $content . '</div>';
+}
