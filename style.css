@@ -1935,3 +1935,9 @@ article.kind-reply::before {
 .kind {
   text-transform:upper;
 }
+
+#content .post, #content .page {
+    padding: 1em 2em;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
