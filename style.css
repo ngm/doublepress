@@ -1940,4 +1940,5 @@ article.kind-reply::before {
     padding: 1em 2em;
     border: 1px solid #ccc;
     border-radius: 10px;
+    background-color: white;
 }
