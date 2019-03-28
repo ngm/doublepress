@@ -663,5 +663,16 @@ function wp_embed_handler_ytnocookie( $matches, $attr, $url, $rawattr ) {
 // see: https://github.com/ngm/doubleloop.net/issues/4
 add_filter('the_content', 'wrapPostContentWithContentMicroformats', 15, 2);
 function wrapPostContentWithContentMicroformats($content) {
-    return '<div class="p-name p-content">' . $content . '</div>';
+    return '<div class="p-name p-content e-content">' . $content . '</div>';
+}
+
+wp_embed_register_handler( 'invidious', '#https?://invidio.us/watch?v=([A-Za-z0-9\-_]+)#i', 'wp_embed_handler_invidious' );
+wp_embed_register_handler( 'invidious', '#https?://invidio.us/embed/([A-Za-z0-9\-_]+)#i', 'wp_embed_handler_invidious' );
+function wp_embed_handler_invidious( $matches, $attr, $url, $rawattr ) {
+    $embed = sprintf(
+        '<iframe src="https://invidio.us/embed/%1$s" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" width="600" height="400"></iframe>',
+        esc_attr($matches[1])
+    );
+
+    return $embed;
 }
