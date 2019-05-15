@@ -82,9 +82,10 @@ blockquote:before {
   content: "\201C";
   font-size: 100px;
   position: absolute;
-  left: -40px;
-  top: 30px;
+  left: -35px;
+  top: 0;
   font-style: normal;
+  line-height: 0.7;
 }
 blockquote p {
   margin-bottom: 0;
